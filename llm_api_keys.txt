@@ -1,0 +1,74 @@
+免费 LLM API 列表
+==================================================
+
+[INTERNATIONAL]
+名称: OpenAI
+URL: https://api.openai.com/v1
+注册: https://platform.openai.com/signup
+---
+名称: Anthropic
+URL: https://api.anthropic.com/v1
+注册: https://console.anthropic.com/signup
+---
+名称: Google AI
+URL: https://generativelanguage.googleapis.com/v1beta
+注册: https://makersuite.google.com/app/apikey
+---
+名称: Cohere
+URL: https://api.cohere.com/v1
+注册: https://dashboard.cohere.com/sign-up
+---
+名称: Hugging Face
+URL: https://api-inference.huggingface.co/models
+注册: https://huggingface.co/join
+---
+名称: OpenRouter
+URL: https://openrouter.ai/api/v1
+注册: https://openrouter.ai/keys
+---
+名称: Opencode
+URL: https://openrouter.ai/api/v1
+注册: https://openrouter.ai/keys
+---
+名称: Groq
+URL: https://api.groq.com/openai/v1
+注册: https://groq.com/login/
+---
+名称: Mistral AI
+URL: https://api.mistral.ai/v1
+注册: https://console.mistral.ai/
+---
+名称: DeepSeek
+URL: https://api.deepseek.com/v1
+注册: https://platform.deepseek.com/api_keys
+---
+名称: Cline
+URL: https://api.anthropic.com/v1
+注册: https://console.anthropic.com/signup
+---
+
+[DOMESTIC]
+名称: 百度文心
+URL: https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat
+注册: https://aip.baidubce.com/
+---
+名称: 腾讯混元
+URL: https://api.hunyuan.tencent.com/v1/chat/completions
+注册: https://hunyuan.cloud.tencent.com/
+---
+名称: 阿里通义
+URL: https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation
+注册: https://dashscope.console.aliyun.com/
+---
+名称: 智谱AI
+URL: https://open.bigmodel.cn/api/paas/v4/chat/completions
+注册: https://open.bigmodel.cn/
+---
+名称: MiniMax
+URL: https://api.minimaxi.com/v1/text/chatcompletion_v2
+注册: https://api.minimaxi.com/
+---
+名称: 讯飞星火
+URL: https://spark-api.cn-huabei-1.xf-yun.com/v1/chat/completions
+注册: https://console.xfyun.cn/
+---

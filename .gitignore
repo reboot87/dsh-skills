@@ -1,0 +1,24 @@
+# 构建输出（skill 项目要求第 1、8 条）
+build/
+out/
+
+# VS2017 用户级配置（不入库）
+*.user
+*.VC.db
+*.VC.opendb
+*.suo
+.vs/
+
+# CMake 生成物
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+
+# 编译中间产物
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.exe

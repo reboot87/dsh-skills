@@ -1,0 +1,323 @@
+{
+  "导出时间": "2026-10-23T15:09:04.313500",
+  "总供应商数": 17,
+  "国际供应商数": 11,
+  "国内供应商数": 6,
+  "供应商列表": [
+    {
+      "name": "OpenAI",
+      "base_url": "https://api.openai.com/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://platform.openai.com/signup",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 3,
+        "tokens_per_day": 4000
+      },
+      "supported_models": [
+        "gpt-3.5-turbo",
+        "gpt-3.5-turbo-16k"
+      ],
+      "description": "OpenAI 免费 $5 额度",
+      "region": "international"
+    },
+    {
+      "name": "Anthropic",
+      "base_url": "https://api.anthropic.com/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://console.anthropic.com/signup",
+      "registration_steps": [],
+      "rate_limits": {
+        "characters_per_month": 10000,
+        "requests_per_minute": 100
+      },
+      "supported_models": [
+        "claude-3-opus",
+        "claude-3-sonnet",
+        "claude-2-1"
+      ],
+      "description": "Anthropic Claude 免费试用",
+      "region": "international"
+    },
+    {
+      "name": "Google AI",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://makersuite.google.com/app/apikey",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 100,
+        "tokens_per_day": 50000
+      },
+      "supported_models": [
+        "gemini-pro",
+        "gemini-pro-vision"
+      ],
+      "description": "Google Gemini 免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Cohere",
+      "base_url": "https://api.cohere.com/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://dashboard.cohere.com/sign-up",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 1000,
+        "tokens_per_day": 5000
+      },
+      "supported_models": [
+        "command-r",
+        "command-r-plus",
+        "command-light"
+      ],
+      "description": "Cohere 免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Hugging Face",
+      "base_url": "https://api-inference.huggingface.co/models",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://huggingface.co/join",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_minute": 20,
+        "requests_per_day": 300
+      },
+      "supported_models": [
+        "gpt2",
+        "bloom",
+        "llama2",
+        "mistral"
+      ],
+      "description": "Hugging Face 免费推理 API",
+      "region": "international"
+    },
+    {
+      "name": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://openrouter.ai/keys",
+      "registration_steps": [],
+      "rate_limits": {
+        "credits_per_day": 5,
+        "requests_per_minute": 20
+      },
+      "supported_models": [
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "OpenRouter 聚合免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Opencode",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://openrouter.ai/keys",
+      "registration_steps": [],
+      "rate_limits": {
+        "credits_per_day": 5,
+        "requests_per_minute": 20
+      },
+      "supported_models": [
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "claude-3",
+        "gemini-pro"
+      ],
+      "description": "Opencode 免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Groq",
+      "base_url": "https://api.groq.com/openai/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://groq.com/login/",
+      "registration_steps": [],
+      "rate_limits": {
+        "tokens_per_minute": 6000,
+        "requests_per_day": 100
+      },
+      "supported_models": [
+        "mixtral-8x7b-32768",
+        "llama3-70b-8192",
+        "gemma-7b-it"
+      ],
+      "description": "Groq 超快推理免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Mistral AI",
+      "base_url": "https://api.mistral.ai/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://console.mistral.ai/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 100,
+        "tokens_per_day": 10000
+      },
+      "supported_models": [
+        "mistral-small",
+        "mistral-medium",
+        "openlarge"
+      ],
+      "description": "Mistral 免费额度",
+      "region": "international"
+    },
+    {
+      "name": "DeepSeek",
+      "base_url": "https://api.deepseek.com/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://platform.deepseek.com/api_keys",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 100,
+        "tokens_per_day": 50000
+      },
+      "supported_models": [
+        "deepseek-chat",
+        "deepseek-coder"
+      ],
+      "description": "DeepSeek 高性能免费额度",
+      "region": "international"
+    },
+    {
+      "name": "Cline",
+      "base_url": "https://api.anthropic.com/v1",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://console.anthropic.com/signup",
+      "registration_steps": [],
+      "rate_limits": {
+        "characters_per_month": 100000
+      },
+      "supported_models": [
+        "claude-3-opus",
+        "claude-3-sonnet"
+      ],
+      "description": "Cline 增强 Claude 免费额度",
+      "region": "international"
+    },
+    {
+      "name": "百度文心",
+      "base_url": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://aip.baidubce.com/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 500,
+        "tokens_per_day": 20000
+      },
+      "supported_models": [
+        "ernie-bot",
+        "ernie-bot-turbo"
+      ],
+      "description": "百度文心一言免费额度",
+      "region": "domestic"
+    },
+    {
+      "name": "腾讯混元",
+      "base_url": "https://api.hunyuan.tencent.com/v1/chat/completions",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://hunyuan.cloud.tencent.com/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 1000,
+        "tokens_per_day": 100000
+      },
+      "supported_models": [
+        "hunyuan-standard",
+        "hunyuan-lite"
+      ],
+      "description": "腾讯混元免费额度",
+      "region": "domestic"
+    },
+    {
+      "name": "阿里通义",
+      "base_url": "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://dashscope.console.aliyun.com/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 1000,
+        "tokens_per_day": 20000
+      },
+      "supported_models": [
+        "qwen-7b-chat",
+        "qwen-14b-chat"
+      ],
+      "description": "阿里云通义千问免费额度",
+      "region": "domestic"
+    },
+    {
+      "name": "智谱AI",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://open.bigmodel.cn/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_minute": 30,
+        "requests_per_day": 100
+      },
+      "supported_models": [
+        "glm-4",
+        "glm-3-turbo"
+      ],
+      "description": "智谱AI GLM免费额度",
+      "region": "domestic"
+    },
+    {
+      "name": "MiniMax",
+      "base_url": "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://api.minimaxi.com/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 100,
+        "tokens_per_day": 20000
+      },
+      "supported_models": [
+        "abab6.5-chat",
+        "abab5.5-chat"
+      ],
+      "description": "MiniMax免费额度",
+      "region": "domestic"
+    },
+    {
+      "name": "讯飞星火",
+      "base_url": "https://spark-api.cn-huabei-1.xf-yun.com/v1/chat/completions",
+      "is_free": true,
+      "registration_required": true,
+      "registration_url": "https://console.xfyun.cn/",
+      "registration_steps": [],
+      "rate_limits": {
+        "requests_per_day": 100,
+        "tokens_per_day": 20000
+      },
+      "supported_models": [
+        "spark-lite",
+        "spark-pro"
+      ],
+      "description": "讯飞星火免费额度",
+      "region": "domestic"
+    }
+  ]
+}

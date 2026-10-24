@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Free LLM API Collector - Manual Steps"
+echo ""
+echo "1. Install Python if not already installed (Python 3.x)"
+echo "   pip install requests"
+echo ""
+echo "2. Run the collection script:"
+echo "   python free_llm_collector.py"
+echo ""
+echo "3. The script will generate two output files:"
+echo "   - free_llm_providers.json (structured data)"
+echo "   - free_llm_providers.md (human-readable Markdown)"
+echo ""
+echo "4. Check the generated files in E:\\freemodel directory"
+echo ""
+echo "For detailed information about each provider, see the Markdown file."
