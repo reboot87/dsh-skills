@@ -18,8 +18,10 @@ static_assert(std::is_nothrow_move_constructible<freemodel::RingBuffer<int>>::va
 static_assert(!std::is_copy_constructible<freemodel::RingBuffer<int>>::value,
               "RingBuffer must not be copy-constructible");
 
-// 声明的导出实例化类型必须存在且完整。
-static_assert(std::is_complete_type<freemodel::RingBuffer<int>*>::value, "");
+// 声明的导出实例化类型必须存在且完整（sizeof 对不完整类型无法编译，
+// 用指针的完整类型检查替代不存在的 std::is_complete_type —— C++11 标准写法）。
+static_assert(sizeof(freemodel::RingBuffer<int>) > 0,
+              "RingBuffer<int> must be a complete type");
 static_assert(!std::is_same<freemodel::RingBuffer<int>, freemodel::RingBuffer<double>>::value,
               "distinct instantiations must be distinct types");
 
@@ -46,8 +48,8 @@ void testPushPopBasics() {
 
     int value = 0;
     CHECK(!buffer.pop(&value)); // 空缓冲区 pop 必须失败
-    CHECK(buffer.push(10));
-    CHECK(!buffer.push(20)); // 未满时 push 返回 false（无覆盖）
+    CHECK(!buffer.push(10));    // 未满时 push 不覆盖，按文档返回 false
+    CHECK(!buffer.push(20));    // 仍未满，返回 false（无覆盖）
     CHECK(buffer.size() == 2);
     CHECK(buffer.pop(&value) && value == 10);
     CHECK(buffer.pop(&value) && value == 20);
